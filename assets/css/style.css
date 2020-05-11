@@ -161,12 +161,21 @@ label.checker   {
     }
 
     .cat-image-container    {
-        max-height: 100px;
+        height: 80px;
+    }
+
+    .product-grid   {
+        margin-top: -60px;
+    }
+
+    .cat-box    {
+        margin-right: 5px;
+        width: 30%;
     }
 
     #on-off:checked ~ .product-grid {
-        margin: 80px auto 0 auto;
+        margin: 70px auto 0 auto;
         width: 100%;
-
+    }
 }
 
